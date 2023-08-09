@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ingresso [
+    <!ELEMENT ingresso (cinema, sessao, cliente)>
+    <!ELEMENT cinema (#PCDATA)>
+    <!ELEMENT sessao (cod, sala, filme, horario, assento)>
+        <!ELEMENT cod (#PCDATA)>
+        <!ELEMENT sala (#PCDATA)>
+        <!ELEMENT filme (#PCDATA)>
+        <!ELEMENT horario (#PCDATA)>
+        <!ELEMENT assento (#PCDATA)>
+    <!ELEMENT cliente (nome, cpf)>
+        <!ELEMENT nome (#PCDATA)>
+        <!ELEMENT cpf (#PCDATA)>
+]>
+<ingresso>
+    <cinema> Cinema Camboriu </cinema>
+    <sessao>
+        <cod>N0189</cod>
+        <sala>08</sala>
+        <filme>Cidade de Deus</filme>
+        <horario>20:00h</horario>
+        <assento>G08</assento>
+    </sessao>
+    <cliente>
+        <nome>Gabriel Henrique</nome>
+        <cpf>98356429900</cpf>
+    </cliente>
+</ingresso>
