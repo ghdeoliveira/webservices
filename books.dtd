@@ -1,0 +1,5 @@
+    <!ELEMENT bookstore (book+)>
+    <!ELEMENT book (title, price)>
+    <!ELEMENT title (#PCDATA)>
+    <!ATTLIST title lang (en|pt) "en">
+    <!ELEMENT price (#PCDATA)>
